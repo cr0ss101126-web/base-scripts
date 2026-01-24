@@ -2,7 +2,7 @@
 echo "Identificati"
 read UTENTE
 
-if [ "$UTENTE" == "angelo" ]; then
+if [ "$UTENTE" == "utente" ]; then
 	echo "Accesso consentito! creo la tua cartella personale."
 	mkdir -p Area_Privata
 	echo "hai registrato un accesso il $(date)" >> Area_Privata/Benvenuto.txt
