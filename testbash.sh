@@ -8,5 +8,5 @@ if [ "$USER" == "User" ]; then
 	echo "You've logged the $(date)" >> Personal_directory/Welcome.txt
 else
 	echo "Access denied! You're not the owner." 
-	echo "$UTENTE attempted to access $(date)" >> Attempted_access.log
+	echo "$USER attempted to access $(date)" >> Attempted_access.log
 fi
