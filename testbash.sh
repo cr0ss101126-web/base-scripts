@@ -1,12 +1,12 @@
 #!/bin/bash
-echo "Identificati"
-read UTENTE
+echo "Who are you?"
+read USER
 
-if [ "$UTENTE" == "utente" ]; then
-	echo "Accesso consentito! creo la tua cartella personale."
-	mkdir -p Area_Privata
-	echo "hai registrato un accesso il $(date)" >> Area_Privata/Benvenuto.txt
+if [ "$USER" == "User" ]; then
+	echo "You are in! I'm creating your personal directory."
+	mkdir -p Personal_directory
+	echo "You've logged the $(date)" >> Personal_directory/Welcome.txt
 else
-	echo "Accetto negato! Non sei il proprietario." 
-	echo "l'intruso $UTENTE ha provato ad accedere il $(date)" >> tentativo_intrusione.log
+	echo "Access denied! You're not the owner." 
+	echo "$UTENTE attempted to access $(date)" >> Attempted_access.log
 fi
