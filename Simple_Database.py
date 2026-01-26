@@ -4,7 +4,7 @@ account = {"name": "user",
 }
 choose = " "
 
-while choose != "esci":
+while choose != "exit":
     choose = input("What you want to do? (modify / visual / exit)   ").lower()
     
     if choose == "modify":
