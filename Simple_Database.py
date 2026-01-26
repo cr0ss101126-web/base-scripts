@@ -19,8 +19,8 @@ while choose != "exit":
             account['city'] = mdf
             print(f"ok, now your city is {account['city']}")
         else:
-            csmd
-            profilo['age'] = mdf
+            mdf
+            account['age'] = mdf
             print(f"ok, now your age is {account['age']}")
     elif choose == "exit":
         break
