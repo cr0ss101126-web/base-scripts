@@ -11,16 +11,16 @@ while choose != "exit":
         print(f"What you want to modify? name: {account['name']}, age: {account['age']}, city: {account['city']}")
         modif = input("choose   ")
         if modif == "name":
-            mdf = input("now is   ")
-            account['name'] = mdf
+            mdfn = input("Now is   ")
+            account['name'] = mdfn
             print(f"ok, now your name is {account['name']}")
         elif modif == "city":
-            mdf
-            account['city'] = mdf
+            mdfc = input("Now you live in ")
+            account['city'] = mdfc
             print(f"ok, now your city is {account['city']}")
         else:
-            mdf
-            account['age'] = mdf
+            mdfa = input("Now your age is ")
+            account['age'] = mdfa
             print(f"ok, now your age is {account['age']}")
     elif choose == "exit":
         break
