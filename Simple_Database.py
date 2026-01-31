@@ -15,12 +15,12 @@ while choose != "exit":
             account['name'] = mdf
             print(f"ok, now your name is {account['name']}")
         elif modif == "city":
-            mdf
+            mdf = input("now you live in ")
             account['city'] = mdf
             print(f"ok, now your city is {account['city']}")
         else:
-            csmd
-            account['età'] = mdf
+            mdf = input("now your age is "
+            account['age'] = mdf
             print(f"ok, now your age is {account['age']}")
     elif choose == "exit":
         break
