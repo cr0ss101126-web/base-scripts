@@ -19,7 +19,7 @@ while choose != "exit":
             account['city'] = mdf
             print(f"ok, now your city is {account['city']}")
         else:
-            mdf = input("now your age is "
+            mdf = input("now your age is ")
             account['age'] = mdf
             print(f"ok, now your age is {account['age']}")
     elif choose == "exit":
