@@ -4,7 +4,7 @@ account = {"name": "user",
 }
 choose = " "
 
-while choose != "esci":
+while choose != "exit":
     choose = input("What you want to do? (modify / visual / exit)   ").lower()
     
     if choose == "modify":
@@ -20,7 +20,7 @@ while choose != "esci":
             print(f"ok, now your city is {account['city']}")
         else:
             csmd
-            profilo['età'] = mdf
+            account['età'] = mdf
             print(f"ok, now your age is {account['age']}")
     elif choose == "exit":
         break
